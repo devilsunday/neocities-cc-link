@@ -9,10 +9,10 @@
 	/* general page and text colours */
 	--colorBackground: #020605;
 	--colorText: #f2ead4;
-	--colorLink: #318150;
+	--colorLink: #b45353;
 
 	/* accent colours */
-	--colorPrimary: #318150;
+	--colorPrimary: #9a2a9c;
 	--colorSecondary: #f99b36;
 	--colorTertiary: #24211c;
 
@@ -29,7 +29,7 @@
 
 	/* borders */
 	--borderSolid: 1px solid #f2ead4;
-	--borderDotted: 1px dotted #f2ead4;
+	--borderDotted: 1px dotted #b45353;
 	--borderTree: 1px solid #f2ead4;
 
 	/* gallery settings */
@@ -37,7 +37,7 @@
 	--columnGap: 8px;
 
 	/* background image FOR ALL PAGES */
-	--imageBackground: ('../img/BGunsplash.jpg');
+	--imageBackground: ("../img/BGunsplash.jpg");
 }
 
 /* title font - w95fa */

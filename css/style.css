@@ -37,7 +37,7 @@
 	--columnGap: 8px;
 
 	/* background image FOR ALL PAGES */
-	--imageBackground: none;
+	--imageBackground: ('../img/BGunsplash.jpg');
 }
 
 /* title font - w95fa */

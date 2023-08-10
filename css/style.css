@@ -7,7 +7,7 @@
 	--widthContent: 800px;
 
 	/* general page and text colours */
-	--colorBackground: #020605;
+	--colorBackground: #06110e;
 	--colorText: #f2ead4;
 	--colorLink: #b45353;
 
@@ -37,7 +37,7 @@
 	--columnGap: 8px;
 
 	/* background image FOR ALL PAGES */
-	--imageBackground: ("../img/BGunsplash.jpg");
+	--imageBackground: url('../img/BGunsplash.jpg');
 }
 
 /* title font - w95fa */
@@ -100,6 +100,7 @@ body {
 	color: var(--colorText);
 	background-color: var(--colorBackground);
 	background-image: var(--imageBackground);
+	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: cover;

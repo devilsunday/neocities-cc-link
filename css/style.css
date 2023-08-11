@@ -52,35 +52,35 @@
 @font-face {
   font-family: 'DM Mono';
   font-style: normal;
-  src: url('../fonts/DM Mono/dm-mono-v11-latin-regular.woff') format('woff'),
-  		 url('../fonts/DM Mono/dm-mono-v11-latin-regular.woff2') format('woff2'),
-       url('../fonts/DM Mono/dm-mono-v11-latin-regular.ttf');
+  src: url('../fonts/DMMono/dm-mono-v11-latin-regular.woff') format('woff'),
+  		 url('../fonts/DMMono/dm-mono-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/DMMono/dm-mono-v11-latin-regular.ttf');
 }
 
 @font-face {
   font-family: 'DM Mono';
   font-style: italic;
-  src: url('../fonts/DM Mono/dm-mono-v11-latin-italic.woff') format('woff'),
-  		 url('../fonts/DM Mono/dm-mono-v11-latin-italic.woff2') format('woff2'),
-       url('../fonts/DM Mono/dm-mono-v11-latin-italic.ttf');
+  src: url('../fonts/DMMono/dm-mono-v11-latin-italic.woff') format('woff'),
+  		 url('../fonts/DMMono/dm-mono-v11-latin-italic.woff2') format('woff2'),
+       url('../fonts/DMMono/dm-mono-v11-latin-italic.ttf');
 }
 
 @font-face {
   font-family: 'DM Mono';
   font-style: normal;
   font-weight: bold;
-  src: url('../fonts/DM Mono/dm-mono-v11-latin-500.woff') format('woff'),
-  		 url('../fonts/DM Mono/dm-mono-v11-latin-500.woff2') format('woff2'),
-       url('../fonts/DM Mono/dm-mono-v11-latin-500.ttf');
+  src: url('../fonts/DMMono/dm-mono-v11-latin-500.woff') format('woff'),
+  		 url('../fonts/DMMono/dm-mono-v11-latin-500.woff2') format('woff2'),
+       url('../fonts/DMMono/dm-mono-v11-latin-500.ttf');
 }
 
 @font-face {
   font-family: 'DM Mono';
   font-style: italic;
   font-weight: bold;
-  src: url('../fonts/DM Mono/dm-mono-v11-latin-500.woff') format('woff'),
-  		 url('../fonts/DM Mono/dm-mono-v11-latin-500.woff2') format('woff2'),
-       url('../fonts/DM Mono/dm-mono-v11-latin-500.ttf');
+  src: url('../fonts/DMMono/dm-mono-v11-latin-500.woff') format('woff'),
+  		 url('../fonts/DMMono/dm-mono-v11-latin-500.woff2') format('woff2'),
+       url('../fonts/DMMono/dm-mono-v11-latin-500.ttf');
 }
 
 

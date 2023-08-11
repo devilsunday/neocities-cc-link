@@ -295,6 +295,7 @@ nav ul li {
 .widget img{
 	align-self: center; 
 	padding-bottom: .05em;
+	max-width: 100%;
 }
 
 

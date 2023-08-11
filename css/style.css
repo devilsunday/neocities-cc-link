@@ -7,12 +7,12 @@
 	--widthContent: 800px;
 
 	/* general page and text colours */
-	--colorBackground: #06110e;
+	--colorBackground: #110606;
 	--colorText: #f2ead4;
-	--colorLink: #b45353;
+	--colorLink: #b45358;
 
 	/* accent colours */
-	--colorPrimary: #9a2a9c;
+	--colorPrimary: #9c2a33;
 	--colorSecondary: #f99b36;
 	--colorTertiary: #24211c;
 
@@ -29,7 +29,7 @@
 
 	/* borders */
 	--borderSolid: 1px solid #f2ead4;
-	--borderDotted: 1px dotted #b45353;
+	--borderDotted: 1px dotted #b45370;
 	--borderTree: 1px solid #f2ead4;
 
 	/* gallery settings */
@@ -37,7 +37,7 @@
 	--columnGap: 8px;
 
 	/* background image FOR ALL PAGES */
-	--imageBackground: url('../img/BGunsplash.jpg');
+	--imageBackground: url('../img/BGunsplashbw.jpg');
 }
 
 /* title font - w95fa */

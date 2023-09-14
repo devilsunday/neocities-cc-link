@@ -24,10 +24,10 @@
  <meta name="author" content="DevilSunday">
 
  <!-- you can make a 32x32px .png and convert it to .ico at https://favicon.io/ -->
- <link rel="icon" href="/img/favicon.png">
+ <link rel="icon" href="../assets/img/favicon.png">
 
   <!-- stylesheet -->
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
   
 
   <style> 
@@ -44,7 +44,7 @@ align-self: center;
     <!-- you can replace the <p> contents with an emoji if you want -->
     <div><p>👩‍💻</p></div>
     <!-- this takes you back to the homepage -->
-    <div><a href="index.html">home</a></div>
+    <div><a href="../index.html">home</a></div>
     <!-- this links to the menu -->
     <div><a href="#menu">menu</a></div>
   </header>
@@ -58,28 +58,28 @@ align-self: center;
       <nav id="menu">
 
         <!-- for categories linking to just one page, a simple link is all you need. -->
-        <a href="index.html" class="category">home</a>
+        <a href="../index.html" class="category">home</a>
         
-          <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
-          <details>
-            <summary class="category">Gallery</summary>
-              <!-- DO NOT remove class="tree-view" in the nav -->
-              <div class="tree-view">
-                <ul>
-                  <li><a href="gallery.html">main</a></li>
-                  <li><a href="rkgk.html">sketch gallery</a></li>
-                </ul> </div>
-          </details>
-          <a href="about.html" class="category">about</a>
-          <a href="contact.html" class="category">Contact</a>
-          <a href="sitemap.html" class="category">sitemap</a>
-  
-        </nav>
+     <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
+     <details>
+      <summary class="category">Gallery</summary>
+        <!-- DO NOT remove class="tree-view" in the nav -->
+        <div class="tree-view">
+          <ul>
+            <li><a href="../gallery/index.html">main</a></li>
+            <li><a href="../gallery/rkgk.html">sketch gallery</a></li>
+          </ul> </div>
+    </details>
+    <a href="../about/index.html" class="category">about</a>
+    <a href="../contact/index.html" class="category">Contact</a>
+    <a href="../sitemap/index.html" class="category">sitemap</a>
+
+  </nav>
 
       <!-- optional widgets -->
 
       <div class="widget">
-          <img src="img/DEVILSUNDAY_ava.png" width="125px" height="125px" 
+          <img src="../assets/img/DEVILSUNDAY_ava.png" width="125px" height="125px" 
           style="border-radius:25px;"> 
           Support my work on <a href="https://ko-fi.com/devilsunday">ko-fi</a>
       </div>  
@@ -105,8 +105,8 @@ align-self: center;
     <h1>Guest Book</h1>
     <!-- begin wwww.htmlcommentbox.com -->
 <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
-<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} hcb_user.PAGE="https://devilsunday.gay";(function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24ffv3zTEH9NGQbgSVF0Kso1"+"&opts=17415&num=10&ts=1691723257968");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<link rel="stylesheet" type="text/css" href="css/commentbox.css">
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} hcb_user.PAGE="https://devilsunday.gay";(function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24ffv3zTEH9NGQbgSVF0Kso1"+"&opts=17415&num=10&ts=1691723257968");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();  </script>
+<link rel="stylesheet" type="text/css" href="../assets/css/commentbox.css">
 <!-- end www.htmlcommentbox.com --> 
 </section>
     
@@ -120,7 +120,7 @@ align-self: center;
     <p>devilsunday / 2023</p>
     <!-- credits for the template. remove this only if you credit me somewhere else on your site, like a credits page or in the sidebar! -->
     <p class="template-credits"> 
-      <img src="/img/twomouse.gif" height="25px"> 
+      <img src="../assets/img/twomouse.gif" height="25px"> 
     </p>
   </footer>
 

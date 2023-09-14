@@ -24,10 +24,10 @@
   <meta name="author" content="DevilSunday">
 
   <!-- you can make a 32x32px .png and convert it to .ico at https://favicon.io/ -->
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="../assets/img/favicon.png">
 
   <!-- stylesheet -->
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
 
   <style>
     
@@ -41,7 +41,7 @@
     <!-- you can replace the <p> contents with an emoji if you want -->
     <div><p>👩‍💻</p></div>
     <!-- this takes you back to the homepage -->
-    <div><a href="index.html">home</a></div>
+    <div><a href="../index.html">home</a></div>
     <!-- this links to the menu -->
     <div><a href="#menu">menu</a></div>
   </header>
@@ -55,23 +55,23 @@
       <nav id="menu">
 
         <!-- for categories linking to just one page, a simple link is all you need. -->
-        <a href="index.html" class="category">home</a>
+        <a href="../index.html" class="category">home</a>
         
-        <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
-        <details>
-          <summary class="category">Gallery</summary>
-            <!-- DO NOT remove class="tree-view" in the nav -->
-            <div class="tree-view">
-              <ul>
-                <li><a href="gallery.html">main</a></li>
-                <li><a href="rkgk.html">sketch gallery</a></li>
-              </ul> </div>
-        </details>
-        <a href="about.html" class="category">about</a>
-        <a href="/contact.html" class="category">Contact</a>
-        <a href="sitemap.html" class="category">sitemap</a>
+     <!-- for categories that have sublinks/multiple pages, chuck them into a details & summary combo, with the subcategories in a list. -->
+     <details>
+      <summary class="category">Gallery</summary>
+        <!-- DO NOT remove class="tree-view" in the nav -->
+        <div class="tree-view">
+          <ul>
+            <li><a href="../gallery/index.html">main</a></li>
+            <li><a href="../gallery/rkgk.html">sketch gallery</a></li>
+          </ul> </div>
+    </details>
+    <a href="../about/index.html" class="category">about</a>
+    <a href="../contact/index.html" class="category">Contact</a>
+    <a href="../sitemap/index.html" class="category">sitemap</a>
 
-      </nav>
+  </nav>
     </div>
 
     <div class="content">
@@ -80,22 +80,22 @@
       <section id="sitemap">
 
         <h2>sitemap</h2>
-        <p><a href="index.html">home</a></p>
+        <p><a href="../index.html">home</a></p>
         <div class="tree-view">
           <ul>
             <li><p>about</p></li>
               <ul>
-                <li><a href="about.html#about-me">about me</a></li>
-                <li><a href="about.html#social">social media</a></li>
-                <li><a href="contact.html">contact me</a></li>
+                <li><a href="../about/index.html#about-me">about me</a></li>
+                <li><a href="../about/index.html#social">social media</a></li>
+                <li><a href="../contact/index.html">contact me</a></li>
               </ul>
             <li><p>gallery</p></li>
               <ul>
-                <li><a href="gallery.html">main gallery</a></li>
-                <li><a href="rkgk.html">sketch gallery</a></li>
+                <li><a href="../gallery/index.html">main gallery</a></li>
+                <li><a href="../gallery/rkgk.html">sketch gallery</a></li>
               </ul> 
-            <li><p style="margin: 0"><a href="/about.html#src">site credits</a></p></li>
-            <li><p style="margin: 0"><a href="sitemap.html">sitemap</a>/ you are here!</p></li>
+            <li><p style="margin: 0"><a href="../about/index.html#src">site credits</a></p></li>
+            <li><p style="margin: 0"><a href="../sitemap/index.html">sitemap</a>/ you are here!</p></li>
             
           </ul>
 
@@ -108,7 +108,7 @@
     <p>devilsunday / 2023</p>
     <!-- credits for the template. remove this only if you credit me somewhere else on your site, like a credits page or in the sidebar! -->
     <p class="template-credits"> 
-      <img src="/img/twomouse.gif" height="25px"> 
+      <img src="../assets/img/twomouse.gif" height="25px"> 
     </p>
   </footer>
 
